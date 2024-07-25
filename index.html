@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(45deg, #56f2c1, #2F80ED); /* Gradient background */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: #000; /* Text color - changed to black */
+        }
+
+        .instagram-post {
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            background-color: #ffffff; /* White background color for the Instagram post container */
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column; /* Stack child elements vertically */
+            align-items: center;
+            justify-content: center; /* Center text horizontally and vertically */
+            padding: 20px;
+        }
+
+        .instagram-post h1 {
+            margin-bottom: 10px;
+            font-size: 2em;
+            color: #000; /* Text color - changed to black */
+        }
+
+        .instagram-post h1 span {
+            display: block; /* Ensure each word is on a new line */
+            text-align: center; /* Center each line of text */
+        }
+
+        .instagram-post h3 {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #000; /* Text color - changed to black */
+        }
+
+        .instagram-media {
+            color: #000 !important; /* Override Instagram embed text color */
+        }
+
+        @media only screen and (max-width: 600px) {
+            .instagram-post {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="instagram-post">
+        <h1><span>Csaba's</span><span>Instagram Page</span></h1>
+        <h3>Have a visit!</h3>
+        <!-- Replace 'your-username' with your Instagram username -->
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/csaba_vs/" data-instgrm-version="13"></blockquote>
+        <script async src="https://www.instagram.com/embed.js"></script>
+    </div>
+</body>
+</html>
