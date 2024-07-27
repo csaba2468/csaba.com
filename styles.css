@@ -24,7 +24,7 @@ body {
     padding: 20px;
     text-align: center;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
-    margin: 40px 0; /* Increase margin on top and bottom */
+    margin: 0; /* Reverted margin */
 }
 
 .instagram-post h1 {
@@ -68,7 +68,6 @@ body {
     .container {
         padding: 10px;
         border-radius: 10px; /* Adjust border-radius for mobile */
-        margin: 20px 0; /* Adjust margin for mobile view */
     }
 
     .instagram-post h1 {
