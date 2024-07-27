@@ -5,7 +5,7 @@ html, body {
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(45deg, #0390fc, #00dec0); /* Gradient background: light blue to sea green */
+    background: linear-gradient(45deg, #0390fc, #00dec0);
     display: flex;
     justify-content: center;
     align-items: center;
