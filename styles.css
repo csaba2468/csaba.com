@@ -15,7 +15,8 @@ body {
 
 .container {
     width: 90%;
-    max-width: 600px;
+    max-width: 100vw; /* Adjust to use full viewport width */
+    max-height: 90vh; /* Ensure the container does not exceed viewport height */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background-color: #ffffff; /* White background color for the Instagram post container */
     border-radius: 20px; /* Curved edges */
@@ -23,6 +24,10 @@ body {
     padding: 20px;
     text-align: center;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .instagram-post h1 {
