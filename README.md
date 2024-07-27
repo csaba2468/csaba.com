@@ -1,2 +1,2 @@
-# (https://github.com/csaba2468/insta)
+# (https://csaba2468.github.io/insta/)
 Csaba's Instagram page
