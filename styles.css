@@ -38,8 +38,15 @@ body {
     color: #000; /* Text color - changed to black */
 }
 
+.embed-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .instagram-media {
     color: #000 !important; /* Override Instagram embed text color */
+    width: 100%;
 }
 
 .footer {
@@ -54,5 +61,13 @@ body {
     .container {
         padding: 10px;
         border-radius: 0;
+    }
+
+    .instagram-post h1 {
+        font-size: 1.5em;
+    }
+
+    .instagram-post h3 {
+        font-size: 1em;
     }
 }
