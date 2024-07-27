@@ -1,7 +1,6 @@
 html, body {
     height: 100%;
     margin: 0;
-    overflow: hidden; /* Prevent scrolling */
 }
 
 body {
@@ -24,7 +23,6 @@ body {
     padding: 20px;
     text-align: center;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
-    margin: 0; /* Reverted margin */
 }
 
 .instagram-post h1 {
