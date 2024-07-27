@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(45deg, #56CCF2, #2F80ED); /* Gradient background */
+    background: linear-gradient(45deg, #ADD8E6, #2E8B57); /* Gradient background: light blue to sea green */
     margin: 0;
     padding: 0;
     display: flex;
@@ -47,6 +47,7 @@ body {
 .instagram-media {
     color: #000 !important; /* Override Instagram embed text color */
     width: 100%;
+    max-width: 100%;
 }
 
 .footer {
