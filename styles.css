@@ -23,6 +23,7 @@ body {
     overflow: hidden;
     padding: 20px;
     text-align: center;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
 .instagram-post h1 {
@@ -46,13 +47,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 100%;
 }
 
 .instagram-media {
     width: 100%;
-    max-width: 500px; /* Limit the width of the Instagram embed */
-    color: #000 !important; /* Override Instagram embed text color */
+    max-width: 100%; /* Ensure Instagram embed does not exceed container width */
+    border-radius: 20px; /* Curved edges for the embed */
 }
 
 .footer {
