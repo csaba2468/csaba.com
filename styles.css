@@ -1,8 +1,11 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(45deg, #ADD8E6, #2E8B57); /* Gradient background: light blue to sea green */
-    margin: 0;
-    padding: 0;
+    background: linear-gradient(45deg, #0390fc, #00dec0); /* Gradient background: updated colors */
     display: flex;
     justify-content: center;
     align-items: center;
